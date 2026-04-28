@@ -31,11 +31,10 @@
         </div>
       </div>
       </form>
-
     <?php
       if (isset($_GET['search']) && !empty($_GET['search'])) {
         $search = htmlspecialchars($_GET['search']);
-        echo "<h3>" . $search . " Not found</h3>";
+        echo "<h3>" . $search . " Not-found</h3>";
       }
     ?>
   </body>
